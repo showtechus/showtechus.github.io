@@ -5,7 +5,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #222D43; }
+  color: #222D43!important; }
 
 h1 {
   font-weight: 700; }
@@ -30,7 +30,7 @@ h1 {
 .nav-bar {
   background-color: #4E5055;
   color: white;
-  height: 50px;
+  height: 40px;
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
   box-shadow: 0px 3px 25px -10px rgba(0, 0, 0, 0.75); }
@@ -39,7 +39,7 @@ h1 {
     font-weight: 400;
     font-size: 12pt;
     font-weight: 300;
-    margin-top: 22px;
+    margin-top: 15px;
     margin-right: 25px; }
     .nav-bar ul li {
       color: #EFF0F2;
@@ -137,7 +137,7 @@ h1 {
     margin-top: 25px; }
 
 #sub-footer-right {
-  margin-top: 75px;
+  padding-top: 75px;
   font-family: 'Josefin Slab', serif;
   width: 300px; }
   #sub-footer-right h2 {
