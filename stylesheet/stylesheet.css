@@ -5,7 +5,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #222D43!important; }
+  color: #222D43; }
+
+h2 {
+  font-weight: 700 !important; }
 
 h1 {
   font-weight: 700; }
@@ -45,6 +48,14 @@ h1 {
       color: #EFF0F2;
       margin-right: 60px;
       font-weight: 600; }
+      .nav-bar ul li a {
+        color: #EFF0F2 !important;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+      .nav-bar ul li a:hover {
+        color: black !important; }
 
 /*========= main-header =========*/
 #border-bottom {
@@ -62,6 +73,12 @@ h1 {
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat; }
+
+.fixed-image-about {
+  height: 100%;
+  background-image: url("../img/people.jpg");
+  padding: 20px;
+  padding-bottom: 80px; }
 
 .fixed-image {
   height: 100%;
@@ -144,6 +161,14 @@ h1 {
     font-weight: 700; }
   #sub-footer-right p {
     margin-top: 55px; }
+
+/*============== about page ===================*/
+#about-section {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  width: 1200px;
+  margin-bottom: 200px; }
 
 /*=============== grid ==================*/
 .left {
