@@ -1,14 +1,21 @@
 /*# sourceMappingURL=stylesheet.scss.map */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-size: 9pt; }
 
 a {
   text-decoration: none;
   color: #222D43; }
 
+form, input {
+  font-family: 'Josefin Slab', serif; }
+
+.container {
+  font-family: 'Josefin Slab', serif; }
+
 h2 {
-  font-weight: 700 !important; }
+  font-weight: 700 !important;
+  font-family: 'Josefin Slab', serif; }
 
 h1 {
   font-weight: 700; }
@@ -170,11 +177,21 @@ h1 {
   width: 1200px;
   margin-bottom: 200px; }
 
+/* =============== contact page ================*/
+.fixed-image-contact {
+  height: 100%;
+  background-image: url("../img/contact.jpg");
+  padding: 20px;
+  padding-bottom: 80px; }
+
 /*=============== grid ==================*/
 .left {
   float: left; }
 
 .right {
   float: right; }
+
+.col-md-6 {
+  padding: 0px !important; }
 
 /*# sourceMappingURL=stylesheet.css.map */
