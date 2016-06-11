@@ -22,5 +22,10 @@ $(document).ready(function() {
                 }
             }
         });
+        $('.caption').hide();
+        $('.active .caption').show();
     });
+
+    $('.caption').hide();
+    $('.active .caption').show();
 });
