@@ -41,6 +41,7 @@
 }
 #wizard-progress .step-indicator li.active .caption {
   color: #7AD5C9;
+  opacity: 1;
 }
 #wizard-progress .step-indicator li.complete:after {
   background-color: #7AD5C9;
@@ -51,6 +52,7 @@
 }
 #wizard-progress .step-indicator li.complete .caption {
   color: #7AD5C9;
+  opacity: 0;
 }
 #wizard-progress .step-indicator .step {
   background-color: #fff;
@@ -71,4 +73,5 @@
 #wizard-progress .step-indicator .caption {
   color: #DEDEDE;
   padding: 11px 60px;
+  opacity: 0;
 }
