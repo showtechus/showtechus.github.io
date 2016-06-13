@@ -146,6 +146,15 @@ h1 {
     font-weight: 700; }
   #contact-section p {
     margin-top: 45px; }
+ 
+/*======== equipments ===========*/
+#equipment-section {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  width: 1200px;
+  margin-bottom: 80px;
+}   
 
 /*========= footer ============*/
 #footer-section {
