@@ -1,206 +1,331 @@
 /*# sourceMappingURL=stylesheet.scss.map */
+
 body {
-  font-family: 'Josefin Slab', serif;
-  font-size: 9pt; }
+    font-family: 'Josefin Slab', serif;
+    font-size: 9pt;
+}
 
 a {
-  text-decoration: none;
-  color: #222D43; }
+    text-decoration: none;
+    color: #222D43;
+}
 
-form, input {
-  font-family: 'Josefin Slab', serif; }
+form,
+input {
+    font-family: 'Josefin Slab', serif;
+}
 
 .container {
-  font-family: 'Josefin Slab', serif; }
+    font-family: 'Josefin Slab', serif;
+}
 
 h2 {
-  font-weight: 700 !important;
-  font-family: 'Josefin Slab', serif; }
+    font-weight: 700 !important;
+    font-family: 'Josefin Slab', serif;
+}
 
 h1 {
-  font-weight: 700; }
+    font-weight: 700;
+}
+
 
 /*==========contact-info=========*/
+
 .contact-info {
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
-  height: 30px;
-  background-color: #F6F7EB;
-  font-size: 9pt; }
-  .contact-info ul {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    height: 30px;
+    background-color: #F6F7EB;
+    font-size: 9pt;
+}
+
+.contact-info ul {
     margin-top: 5px;
-    margin-right: 30px; }
-    .contact-info ul li {
-      margin-right: 35px; }
-      .contact-info ul li i {
-        margin-right: 5px;
-        top: -1px; }
+    margin-right: 30px;
+}
+
+.contact-info ul li {
+    margin-right: 35px;
+}
+
+.contact-info ul li i {
+    margin-right: 5px;
+    top: -1px;
+}
+
 
 /*========= nav-bar =========*/
+
 .nav-bar {
-  background-color: #4E5055;
-  color: white;
-  height: 40px;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
-  box-shadow: 0px 3px 25px -10px rgba(0, 0, 0, 0.75); }
-  .nav-bar ul {
+    background-color: #4E5055;
+    color: white;
+    height: 40px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    box-shadow: 0px 3px 25px -10px rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar ul {
     font-family: 'Josefin Slab', serif;
     font-weight: 400;
     font-size: 12pt;
     font-weight: 300;
     margin-top: 15px;
-    margin-right: 25px; }
-    .nav-bar ul li {
-      color: #EFF0F2;
-      margin-right: 60px;
-      font-weight: 600; }
-      .nav-bar ul li a {
-        color: #EFF0F2 !important;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 0px;
-        padding-bottom: 0px; }
-      .nav-bar ul li a:hover {
-        color: black !important; }
+    margin-right: 25px;
+}
+
+.nav-bar ul li {
+    color: #EFF0F2;
+    margin-right: 60px;
+    font-weight: 600;
+}
+
+.nav-bar ul li a {
+    color: #EFF0F2 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-bar ul li a:hover {
+    color: black !important;
+}
+
 
 /*========= main-header =========*/
+
 #border-bottom {
-  box-shadow: 0 -3 6;
-  border-bottom: 20px solid #f6f7eb; }
+    box-shadow: 0 -3 6;
+    border-bottom: 20px solid #f6f7eb;
+}
 
 .container-left {
-  width: 400px;
-  padding-right: 15px;
-  padding-left: 60px;
-  margin-left: 100px; }
+    width: 400px;
+    padding-right: 15px;
+    padding-left: 60px;
+    margin-left: 100px;
+}
 
 .fixed-bg {
-  min-height: 100%;
-  background-size: contain;
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
+    min-height: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 .fixed-image-about {
-  height: 100%;
-  background-image: url("../img/people.jpg");
-  padding: 20px;
-  padding-bottom: 80px; }
+    height: 100%;
+    background-image: url("../img/people.jpg");
+    padding: 20px;
+    padding-bottom: 80px;
+}
 
 .fixed-image {
-  height: 100%;
-  background-image: url("../img/dj.jpg");
-  padding: 20px;
-  padding-bottom: 80px; }
-  .fixed-image h1 {
+    height: 100%;
+    background-image: url("../img/dj.jpg");
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.fixed-image h1 {
     font-family: 'Josefin Slab', serif;
     color: #222D43;
-    font-weight: 700; }
-  .fixed-image p {
+    font-weight: 700;
+}
+
+.fixed-image p {
     font-family: 'Josefin Slab', serif;
-    color: #222D43; }
+    color: #222D43;
+}
+
 
 /*========= intro =========*/
+
 #intro-section {
-  margin-top: 50px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  width: 400px; }
-  #intro-section h2 {
-    font-weight: 700; }
-  #intro-section p {
-    margin-top: 45px; }
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    width: 400px;
+}
+
+#intro-section h2 {
+    font-weight: 700;
+}
+
+#intro-section p {
+    margin-top: 45px;
+}
+
 
 /*========= display =========*/
+
 #display-section {
-  margin-top: 80px; }
+    margin-top: 80px;
+}
 
 .display-button {
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
-  float: right;
-  margin-top: 30px;
-  margin-right: 80px; }
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
 
 .img {
-  margin-left: 25px; }
+    margin-left: 25px;
+}
+
 
 /*========= service ============*/
+
 #service-section {
-  margin-top: 50px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  width: 400px; }
-  #service-section h2 {
-    font-weight: 700; }
-  #service-section p {
-    margin-top: 45px; }
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    width: 400px;
+}
+
+#service-section h2 {
+    font-weight: 700;
+}
+
+#service-section p {
+    margin-top: 45px;
+}
+
 
 /*========= contact ============*/
+
 #contact-section {
-  margin-top: 50px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  width: 400px; }
-  #contact-section h2 {
-    font-weight: 700; }
-  #contact-section p {
-    margin-top: 45px; }
- 
-/*======== equipments ===========*/
-#equipment-section {
-  margin-top: 80px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  width: 1200px;
-  margin-bottom: 80px;
-}   
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    width: 400px;
+}
+
+#contact-section h2 {
+    font-weight: 700;
+}
+
+#contact-section p {
+    margin-top: 45px;
+}
+
 
 /*========= footer ============*/
+
 #footer-section {
-  background-color: #F6F7EB; }
+    background-color: #F6F7EB;
+}
 
 #sub-footer-left {
-  margin-top: 50px;
-  font-family: 'Josefin Slab', serif;
-  width: 300px; }
-  #sub-footer-left h2 {
-    font-weight: 700; }
-  #sub-footer-left p {
-    margin-top: 25px; }
+    margin-top: 50px;
+    font-family: 'Josefin Slab', serif;
+    width: 300px;
+}
+
+#sub-footer-left h2 {
+    font-weight: 700;
+}
+
+#sub-footer-left p {
+    margin-top: 25px;
+}
 
 #sub-footer-right {
-  padding-top: 75px;
-  font-family: 'Josefin Slab', serif;
-  width: 300px; }
-  #sub-footer-right h2 {
-    font-weight: 700; }
-  #sub-footer-right p {
-    margin-top: 55px; }
+    padding-top: 75px;
+    font-family: 'Josefin Slab', serif;
+    width: 300px;
+}
+
+#sub-footer-right h2 {
+    font-weight: 700;
+}
+
+#sub-footer-right p {
+    margin-top: 55px;
+}
+
 
 /*============== about page ===================*/
+
 #about-section {
-  margin-top: 80px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  width: 1200px;
-  margin-bottom: 200px; }
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    width: 1200px;
+    margin-bottom: 200px;
+}
+
 
 /* =============== contact page ================*/
+
 .fixed-image-contact {
-  height: 100%;
-  background-image: url("../img/contact.jpg");
-  padding: 20px;
-  padding-bottom: 80px; }
+    height: 100%;
+    background-image: url("../img/contact.jpg");
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
 
 /*=============== grid ==================*/
+
 .left {
-  float: left; }
+    float: left;
+}
 
 .right {
-  float: right; }
+    float: right;
+}
 
 .col-md-6 {
-  padding: 0px !important; }
+    padding: 0px !important;
+}
+
+.equipments h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.flex_row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-child-auto {
+    flex: 0 1 auto;
+}
+
+.empty-flex-box {
+    flex: 0 1 225px;
+}
+
 
 /*# sourceMappingURL=stylesheet.css.map */
+
+
+/*animation*/
+
+.box-shadow {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.18);
+    transition: box-shadow 0.5s ease-out;
+}
+
+.box-shadow:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.18);
+}
