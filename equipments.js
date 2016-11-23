@@ -3,7 +3,7 @@ $(document).ready(function() {
   var equipments = undefined;
   $.ajax({
     // TODO: use .hostname in production
-    url:  "http://localhost:8888/json/inventory.json",
+    url:  window.location.hostname + "/json/inventory.json",
     dataType: "json",
     async: false,
     success: function(result, status, xhr) {
