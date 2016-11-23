@@ -10,9 +10,7 @@ $(document).ready(function() {
       equipments = result[0];
     },
     error: function(result, status, xhr) {
-      alert("Error");
-      alert(result);
-      alert(status);
+      console.error("Could not retrieve data from json/inventory.json");
     }
   });
 
