@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+  console.log("HELLO WORLD");
     $('.step').each(function(ix, el) {
         $(this).attr('id', 'step' + (++ix));
     });
